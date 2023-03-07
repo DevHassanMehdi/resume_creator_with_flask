@@ -1,0 +1,96 @@
+body {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+    background: #ffffff;
+    color: #000000;
+}
+
+.container {
+    margin: 0%;
+}
+
+.leftRow {
+    float: left;
+    margin-right: 1%;
+    border-radius: 10px;
+    width: 27.5%;
+}
+
+.rightRow {
+    float: right;
+    margin-left: 1%;
+    border-radius: 10px;
+    padding: 0%;
+    width: 67.5%;
+    text-align: justify;
+}
+
+.bottomRow {
+    float: none;
+    margin: 0%;
+    padding: 0%;
+    text-align: justify;
+}
+
+.card {
+    font-size: large;
+    letter-spacing: 2px;
+}
+
+#profileImage {
+    align-content: center;
+    width: 250px;
+    height: 250px;
+    border: 2px solid black;
+    border-radius: 100%;
+    object-fit: cover;
+    object-position: 100% 0;
+    margin-bottom: 5%;
+    padding: 1%;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    -webkit-padding-start: 0;
+    list-style-type: circle;
+}
+
+h1 {
+    text-align: left;
+    font-size: 400%;
+}
+
+h2 {
+    text-align: left;
+    font-size: 150%;
+}
+
+h3 {
+    text-align: left;
+    font-size: 125%;
+}
+
+.itemTitle,
+.itemSubtitle {
+    font-weight: bold;
+}
+
+.duration {
+    font-style: italic;
+}
+
+#publication-1 {
+    float: left;
+    margin: 0%;
+    padding: 0%;
+    width: 45%;
+}
+
+#publication-2 {
+    float: right;
+    margin: 0%;
+    padding: 0%;
+    width: 45%;
+}
